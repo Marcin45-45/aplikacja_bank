@@ -1,4 +1,4 @@
-# 🏦 Bank Account Application (Python)
+# Bank Account Application (Python)
 
 Prosta aplikacja konsolowa symulująca konto bankowe z obsługą PIN-u, wpłat, wypłat oraz limitem debetu.
 
@@ -6,17 +6,17 @@ Projekt został napisany w Pythonie w celu nauki programowania obiektowego oraz 
 
 ---
 
-## 📌 Funkcjonalności
+## Funkcjonalności
 
-- 🔐 Logowanie przy użyciu kodu PIN (maksymalnie 3 próby)
-- 💰 Wpłata środków na konto
-- 💸 Wypłata środków z kontrolą limitu debetu
-- ⚠️ Obsługa błędów (niepoprawne kwoty, przekroczenie limitu)
-- 🧾 Aktualne saldo wyświetlane po każdej operacji
+- Logowanie przy użyciu kodu PIN (maksymalnie 3 próby)
+- Wpłata środków na konto
+- Wypłata środków z kontrolą limitu debetu
+- Obsługa błędów (niepoprawne kwoty, przekroczenie limitu)
+- Aktualne saldo wyświetlane po każdej operacji
 
 ---
 
-## 🛠 Technologie
+## Technologie
 
 - Python 3
 - Programowanie obiektowe (OOP)
@@ -26,7 +26,7 @@ Projekt został napisany w Pythonie w celu nauki programowania obiektowego oraz 
 
 ---
 
-## 🧠 Logika działania
+## Logika działania
 
 ### Klasa `Bank`
 
@@ -35,7 +35,7 @@ Aplikacja opiera się na klasie `Bank`, która przechowuje:
 - `amount` – aktualne saldo konta
 - `overdraft_limit` – maksymalny dozwolony debet (1000 zł)
 
-### Metody:
+## Metody:
 
 - `add_money(money)`  
   Dodaje środki do konta (kwota musi być większa od 0)
@@ -47,7 +47,7 @@ Aplikacja opiera się na klasie `Bank`, która przechowuje:
 
 ---
 
-## 🔐 Autoryzacja
+## Autoryzacja
 
 Użytkownik musi podać poprawny PIN (3 próby).
 
@@ -55,8 +55,9 @@ Po 3 nieudanych próbach konto zostaje zablokowane.
 
 ---
 
-## ▶️ Jak uruchomić projekt
+## Jak uruchomić projekt
 
 1. Sklonuj repozytorium:
    ```bash
    git clone https://github.com/Marcin45-45/aplikacja_bank.git
+
